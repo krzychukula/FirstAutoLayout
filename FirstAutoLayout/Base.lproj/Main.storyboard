@@ -28,7 +28,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="B" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q73-ps-Kn2">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="B" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q73-ps-Kn2">
                                 <rect key="frame" x="16" y="78" width="568" height="21"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -36,14 +36,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fyW-78-k7Z">
-                                <rect key="frame" x="16" y="107" width="568" height="21"/>
+                                <rect key="frame" x="16" y="165" width="568" height="21"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="D" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e2a-LF-Duk">
-                                <rect key="frame" x="16" y="136" width="568" height="21"/>
+                                <rect key="frame" x="16" y="199" width="568" height="21"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -52,9 +52,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="q73-ps-Kn2" firstAttribute="top" secondItem="P0e-U8-IiK" secondAttribute="bottom" constant="8" id="5eH-Sd-Nzk"/>
                             <constraint firstItem="P0e-U8-IiK" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="LVr-Xy-BHi"/>
+                            <constraint firstItem="q73-ps-Kn2" firstAttribute="trailing" secondItem="P0e-U8-IiK" secondAttribute="trailing" id="Vld-sq-AQr"/>
                             <constraint firstItem="P0e-U8-IiK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="YRG-HY-HH9"/>
                             <constraint firstItem="P0e-U8-IiK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="aWf-28-7h8"/>
+                            <constraint firstItem="q73-ps-Kn2" firstAttribute="height" secondItem="P0e-U8-IiK" secondAttribute="height" id="i5C-eJ-AQr"/>
+                            <constraint firstItem="q73-ps-Kn2" firstAttribute="width" secondItem="P0e-U8-IiK" secondAttribute="width" id="vnm-Uc-UBS"/>
                         </constraints>
                     </view>
                 </viewController>
